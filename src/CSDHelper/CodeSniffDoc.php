@@ -4,10 +4,6 @@ namespace CSDHelper;
 
 class CodeSniffDoc
 {
-    public static function world()
-    {
-        return 'Hello World, Composer!';
-    }
 
     public static function GetCodeSnifferPage($errorcode = NULL){
 		if(!$errorcode){
